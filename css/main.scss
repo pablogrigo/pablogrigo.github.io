@@ -47,3 +47,46 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+/**
+ * Misc
+ */
+.page-content {
+    text-align: center;
+}
+
+.project footer {
+    color: $grey-color;
+}
+
+.project .download_link {
+    clear: both;
+    display: block;
+    margin-top: 1em;
+}
+
+.index-profile-picture {
+    width: 12em;
+    margin: 1em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.shadow {
+  -moz-box-shadow:    0px 0px 6px 4px #ccc;
+  -webkit-box-shadow: 0px 0px 6px 4px #ccc;
+  box-shadow:         0px 0px 6px 4px #ccc;
+}
+
+.social-media-list li {
+    display: inline-block;
+    white-space: nowrap;
+}
+.social-media-list li a span {
+    display: none;
+}
+
+.site-footer {
+  text-align: center;
+}
