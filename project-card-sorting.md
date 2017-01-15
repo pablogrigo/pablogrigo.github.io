@@ -4,7 +4,7 @@ title: Card Sorting
 permalink: /cardsorting/
 menu: false
 project: true
-header_image: p-cs-400.png
+header_image: p-cs.png
 download_link_ios: https://itunes.apple.com/us/app/card-sorting/id558227382?mt=8
 year_released: 2012
 screenshots: ["cardsorting/1", "cardsorting/2"]

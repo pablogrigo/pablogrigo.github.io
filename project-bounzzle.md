@@ -4,7 +4,7 @@ title: Bounzzle
 permalink: /bounzzle/
 menu: false
 project: true
-header_image: p-bo-400.png
+header_image: p-bo.png
 year_released: 2012
 year_retired: 2016
 screenshots: ["bounzzle/1", "bounzzle/2"]

@@ -55,8 +55,18 @@ $on-laptop:        800px;
     text-align: center;
 }
 
+.project-list li {
+  display: inline-block;
+  margin: 0.6em;
+}
+
 .project footer {
     color: $grey-color;
+}
+
+.project-banner-image {
+  width: 200px;
+  height: 100px;
 }
 
 .project .download_link {

@@ -4,7 +4,7 @@ title: Games Room
 permalink: /gamesroom/
 menu: false
 project: true
-header_image: p-gr-400.png
+header_image: p-gr.png
 year_released: 2012
 year_retired: 2016
 screenshots: ["gamesroom/1", "gamesroom/2", "gamesroom/3", "gamesroom/4"]
