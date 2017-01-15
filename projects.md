@@ -10,7 +10,9 @@ project: false
   {% for page in site.pages %}
     {% if page.project %}
       <li>
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+            <img class="shadow" src="/images/{{ page.header_image }}" alt="{{ page.title }}" title="{{ page.title }}" />
+          </a>
       </li>
     {% endif %}
   {% endfor %}
