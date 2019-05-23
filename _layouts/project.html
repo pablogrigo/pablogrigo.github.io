@@ -7,16 +7,12 @@ layout: default
 
     <h1 class="post-title">{{ page.title }}</h1>
 
-    {% if page.year_retired %}
-      <!-- :( -->
-    {% else %}
-      {% if page.download_link_ios %}
-          <a class="download_link" href="{{ page.download_link_ios }}" target="_blank">{{ page.title }} on the App Store</a>
-        {% endif %}
+    {% if page.download_link_ios %}
+      <a class="download_link" href="{{ page.download_link_ios }}" target="_blank">{{ page.title }} on the App Store</a>
+    {% endif %}
 
-        {% if page.download_link_android %}
-          <a class="download_link" href="{{ page.download_link_android }}" target="_blank">{{ page.title }} on Google Play</a>
-        {% endif %}
+    {% if page.download_link_android %}
+      <a class="download_link" href="{{ page.download_link_android }}" target="_blank">{{ page.title }} on Google Play</a>
     {% endif %}
 
   </header>
@@ -26,7 +22,7 @@ layout: default
   </article>
 
   <footer>
-    <p>{{ page.year_released }} - {% if page.year_retired %}{{ page.year_retired }}{% else %}Live{% endif %}</p>
+    <p>{{ page.year_released }}</p>
 
     <div class="carousel-container">
       <div class="owl-carousel owl-theme">
