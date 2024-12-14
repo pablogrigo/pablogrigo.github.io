@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <img src="/images/profile.jpg" srcset="/images/profile@2x.jpg 2x" class="index-profile-picture shadow" alt="Profile picture">
+
+  <h1 class="page-heading">Hi, I'm Pablo.</h1>
+
+  <ul class="social-media-list">
+
+    {% if site.linkedin_username %}
+      <li>
+        <a href="https://www.linkedin.com/pub/{{ site.linkedin_username }}" title="My resume on Linkedin">
+          <i class="fa fa-linkedin-square fa-2x"></i> <span>My resume on Linkedin</span>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}" title="My code on Github">
+          <i class="fa fa-github-square fa-2x"></i> <span>My code on Github</span>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if site.instagram_username %}
+      <li>
+        <a href="https://instagram.com/{{ site.instagram_username }}" title="My photos on Instagram">
+          <i class="fa fa-instagram fa-2x"></i> <span>My photos on Instagram</span>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+
+</div>
