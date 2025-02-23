@@ -1,0 +1,12 @@
+# Site settings
+title: Pablo Grigolatto
+description: >
+  Learn, Build, Teach.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://pablogrigo.github.io/"
+instagram_username: pablogrigo
+github_username:  pablogrigo
+linkedin_username: pablo-grigolatto/43/456/643
+
+# Build settings
+markdown: kramdown
